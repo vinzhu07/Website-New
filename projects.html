@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Projects</title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+    <div id="parent">
+        <div id="top_margin" style="height:10vh;"></div>
+        <h1>Projects</h1>
+        <img src = "img/code.webp" style = "max-width: 20vw;">
+        <p>Here I will talk about some of the projects I have worked on in the past, some of which may be very short and small and hence not on my resume.</p>
+        <p><b>Uber Clone (October - November 2022)</b>: I worked on a website that was a clone of Uber for my Cloud Computing final project. We utilized AWS services, including Elastic Beanstalk, Lambda, DynamoDB, CloudWatch, and Cognito.
+            This website allowed users to sign up either as a driver or a rider. If you sign up as a driver, you then register your vehicle by filling out information and uploading a picture of the car. After that, you would then be directed to a page with the open requests.
+            If you signed up as a rider, you could then see where all of the current drivers are. The drivers' vehicles were randomly located around Georgia Tech. The CloudWatch called a Lambda function every minute that slightly moved the vehicles, mimicing movement. As a rider, you can request a ride and if any taxi is available, you get the taxi that is the closest one to you
+        </p>
+        
+        </div>
+    </br>
+        <div id = "links">
+            <a href="index.html">Home</a> 
+            <a href="projects.html">Projects</a> 
+            <a href="resume.html">Resume</a> 
+            <a href="blog.html">Blog</a> 
+            <a href ="contact.html">Contact</a> 
+        </div>    
+</body>
+
+<style>
+    body {
+        background-color: #16213E;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        opacity: .9;
+        color: white;
+    }
+
+    #parent {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    p {
+        max-width: 50%;
+        text-align: left;
+    }
+
+    a {
+        color: white;
+    }
+
+    #links {
+        text-align: center;
+    }
+</style>
+
+</html>
